@@ -1,27 +1,30 @@
 ﻿namespace Entidades
 {
-    #region Métodos
-    private static char ValidarOperador(char operador)
+    public static class Calculadora
     {
-        if (operador == '+' || operador == '-' || operador == '/' || operador == '*')
+        #region Métodos
+        private static char ValidarOperador(char operador)
         {
-            return operador;
+            if (operador == '+' || operador == '-' || operador == '/' || operador == '*')
+            {
+                return operador;
+            }
+            return '+';
         }
-        return '+';
-    }
-    public static double Operar(Operando num1, Operando num2, char operador)
-    {
-        switch (ValidarOperador(operador))
+        public static double Operar(Operando num1, Operando num2, char operador)
         {
-            case '+':
-                return num1 + num2;
-            case '-':
-                return num1 - num2;
-            case '/':
-                return num1 / num2;
-            default:
-                return num1 * num2;
+            switch (ValidarOperador(operador))
+            {
+                case '+':
+                    return num1 + num2;
+                case '-':
+                    return num1 - num2;
+                case '/':
+                    return num1 / num2;
+                default:
+                    return num1 * num2;
+            }
         }
+        #endregion
     }
-    #endregion
 }
