@@ -130,38 +130,34 @@ namespace Entidades
         }
         #endregion
 
-
         #region Sobrecargas
-        ////REVISAR EL MODIFICADOR DE EXPLICIT E IMPLICIT
-        //public static double operator +(Operando n1, Operando n2)
-        //{
-        //    return n1.numero + n2.numero;
-        //}
 
-        ////REVISAR EL MODIFICADOR DE EXPLICIT E IMPLICIT
-        //public static double operator -(Operando n1, Operando n2)
-        //{
-        //    return n1.numero - n2.numero;
-        //}
+        public static double operator +(Operando n1, Operando n2)
+        {
+            return n1.numero + n2.numero;
+        }
 
-        ////REVISAR EL MODIFICADOR DE EXPLICIT E IMPLICIT
-        //public static double operator /(Operando n1, Operando n2)
-        //{
-        //    if (n2.numero == 0)
-        //    {
-        //        return double.MinValue;
-        //    }
-        //    else
-        //    {
-        //        return n1.numero / n2.numero;
-        //    }
-        //}
+        public static double operator -(Operando n1, Operando n2)
+        {
+            return n1.numero - n2.numero;
+        }
 
-        ////REVISAR EL MODIFICADOR DE EXPLICIT E IMPLICIT
-        //public static double operator *(Operando n1, Operando n2)
-        //{
-        //    return n1.numero * n2.numero;
-        //}
+        public static double operator /(Operando n1, Operando n2)
+        {
+            if (n2.numero == 0)
+            {
+                return double.MinValue;
+            }
+            else
+            {
+                return n1.numero / n2.numero;
+            }
+        }
+
+        public static double operator *(Operando n1, Operando n2)
+        {
+            return n1.numero * n2.numero;
+        }
         #endregion
 
     }
