@@ -43,7 +43,7 @@ namespace MiCalculadora
             // 
             // cmbOperador
             // 
-            this.cmbOperador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
+            this.cmbOperador.BackColor = System.Drawing.Color.Gainsboro;
             this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cmbOperador.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -58,12 +58,13 @@ namespace MiCalculadora
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(80, 30);
             this.cmbOperador.TabIndex = 1;
-                 // 
+            // 
             // btnOperar
             // 
             this.btnOperar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.btnOperar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnOperar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnOperar.FlatAppearance.BorderSize = 0;
+            this.btnOperar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnOperar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnOperar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnOperar.Location = new System.Drawing.Point(5, 112);
@@ -77,7 +78,8 @@ namespace MiCalculadora
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.btnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLimpiar.FlatAppearance.BorderSize = 0;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnLimpiar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnLimpiar.Location = new System.Drawing.Point(153, 112);
@@ -91,7 +93,8 @@ namespace MiCalculadora
             // 
             this.btnConvertirADecimal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.btnConvertirADecimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnConvertirADecimal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConvertirADecimal.FlatAppearance.BorderSize = 0;
+            this.btnConvertirADecimal.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnConvertirADecimal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConvertirADecimal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnConvertirADecimal.Location = new System.Drawing.Point(226, 184);
@@ -105,7 +108,8 @@ namespace MiCalculadora
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCerrar.FlatAppearance.BorderSize = 0;
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnCerrar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCerrar.Location = new System.Drawing.Point(301, 112);
@@ -119,7 +123,8 @@ namespace MiCalculadora
             // 
             this.btnConvertirABinario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.btnConvertirABinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnConvertirABinario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnConvertirABinario.FlatAppearance.BorderSize = 0;
+            this.btnConvertirABinario.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnConvertirABinario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnConvertirABinario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnConvertirABinario.Location = new System.Drawing.Point(5, 184);
@@ -133,7 +138,7 @@ namespace MiCalculadora
             // 
             this.lblResultado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblResultado.AutoSize = true;
-            this.lblResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
+            this.lblResultado.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblResultado.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblResultado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblResultado.Location = new System.Drawing.Point(297, 6);
@@ -148,7 +153,7 @@ namespace MiCalculadora
             this.lstBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lstBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.lstBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lstBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lstBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.lstBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lstBox.FormattingEnabled = true;
             this.lstBox.ItemHeight = 22;
@@ -160,7 +165,7 @@ namespace MiCalculadora
             // 
             // txtNumero1
             // 
-            this.txtNumero1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
+            this.txtNumero1.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNumero1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNumero1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNumero1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -173,7 +178,7 @@ namespace MiCalculadora
             // txtNumero2
             // 
             this.txtNumero2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtNumero2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
+            this.txtNumero2.BackColor = System.Drawing.Color.Gainsboro;
             this.txtNumero2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNumero2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNumero2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -204,6 +209,7 @@ namespace MiCalculadora
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
+            this.Opacity = 0.85D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Nahuel Churgovich del curso 2ºE";
             this.ResumeLayout(false);
