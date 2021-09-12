@@ -14,8 +14,16 @@ namespace MiCalculadora
     {
         public FormCalculadora()
         {
+            
             InitializeComponent();
         }
 
+        private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Seguro que quiere salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            } 
+        }
     }
 }
