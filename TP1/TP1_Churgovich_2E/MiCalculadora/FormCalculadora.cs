@@ -40,8 +40,8 @@ namespace MiCalculadora
         {
             this.lblResultado.Text = "";
             this.lstOperaciones.Text = "";
-            this.txtNumero1.Text = "";
-            this.txtNumero2.Text = "";
+            this.txtNumero1.Clear();
+            this.txtNumero2.Clear();
             this.cmbOperador.SelectedIndex = 0;
         }
 
