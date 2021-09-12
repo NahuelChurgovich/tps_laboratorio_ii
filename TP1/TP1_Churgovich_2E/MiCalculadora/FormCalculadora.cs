@@ -44,5 +44,10 @@ namespace MiCalculadora
             this.txtNumero2.Text = "";
             this.cmbOperador.SelectedIndex = 0;
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
