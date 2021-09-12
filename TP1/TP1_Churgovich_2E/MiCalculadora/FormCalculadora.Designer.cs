@@ -36,7 +36,7 @@ namespace MiCalculadora
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnConvertirABinario = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
-            this.lstBox = new System.Windows.Forms.ListBox();
+            this.lstOperaciones = new System.Windows.Forms.ListBox();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -148,20 +148,20 @@ namespace MiCalculadora
             this.lblResultado.Text = "Resultado";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // lstBox
+            // lstOperaciones
             // 
-            this.lstBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
-            this.lstBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lstBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lstBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lstBox.FormattingEnabled = true;
-            this.lstBox.ItemHeight = 22;
-            this.lstBox.Location = new System.Drawing.Point(439, 6);
-            this.lstBox.Name = "lstBox";
-            this.lstBox.Size = new System.Drawing.Size(183, 242);
-            this.lstBox.TabIndex = 9;
-            this.lstBox.TabStop = false;
+            this.lstOperaciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstOperaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
+            this.lstOperaciones.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstOperaciones.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lstOperaciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lstOperaciones.FormattingEnabled = true;
+            this.lstOperaciones.ItemHeight = 22;
+            this.lstOperaciones.Location = new System.Drawing.Point(439, 6);
+            this.lstOperaciones.Name = "lstOperaciones";
+            this.lstOperaciones.Size = new System.Drawing.Size(183, 242);
+            this.lstOperaciones.TabIndex = 9;
+            this.lstOperaciones.TabStop = false;
             // 
             // txtNumero1
             // 
@@ -196,7 +196,7 @@ namespace MiCalculadora
             this.ClientSize = new System.Drawing.Size(624, 251);
             this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.txtNumero1);
-            this.Controls.Add(this.lstBox);
+            this.Controls.Add(this.lstOperaciones);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.btnConvertirABinario);
             this.Controls.Add(this.btnCerrar);
@@ -226,7 +226,7 @@ namespace MiCalculadora
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnConvertirABinario;
         private System.Windows.Forms.Label lblResultado;
-        private System.Windows.Forms.ListBox lstBox;
+        private System.Windows.Forms.ListBox lstOperaciones;
         private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.TextBox txtNumero2;
     }
