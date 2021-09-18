@@ -29,11 +29,16 @@ namespace MiCalculadora
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
+            if (MessageBox.Show("Se han borrado los campos de operación y el resultado. ¿Desea borrar el historial de operaciones?",
+                "Pregunta", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.lstOperaciones.Text = string.Empty;
+            }
         }
 
         private void Limpiar()
         {
-            this.lblResultado.Text = "";
+            this.lblResultado.Text = string.Empty;
             this.txtNumero1.Clear();
             this.txtNumero2.Clear();
             this.cmbOperador.SelectedIndex = 0;
@@ -53,8 +58,34 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            this.lblResultado.Text = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text).ToString();
+            string auxOperar = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text).ToString();
+            if (auxOperar == double.MinValue.ToString())
+            {
+                MessageBox.Show("Operación invalida", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                this.lblResultado.Text = auxOperar;
+                this.lstOperaciones.Items.Add(auxOperar);
+            }
         }
+
+        private void btnConvertirABinario_Click(object sender, EventArgs e)
+        {
+            Operando decABin = new Operando();
+            string auxDecABin = decABin.DecimalBinario(lblResultado.Text);
+            this.lblResultado.Text = auxDecABin;
+            this.lstOperaciones.Items.Add(auxDecABin);
+        }
+
+        private void btnConvertirADecimal_Click(object sender, EventArgs e)
+        {
+            Operando binADec = new Operando();
+            string auxBinADec = binADec.BinarioDecimal(lblResultado.Text);
+            this.lblResultado.Text = auxBinADec;
+            this.lstOperaciones.Items.Add(auxBinADec);
+        }
+
 
     }
 }

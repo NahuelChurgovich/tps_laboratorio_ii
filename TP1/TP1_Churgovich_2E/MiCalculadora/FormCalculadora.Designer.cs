@@ -105,6 +105,7 @@ namespace MiCalculadora
             this.btnConvertirADecimal.TabIndex = 7;
             this.btnConvertirADecimal.Text = "Convertir a Decimal";
             this.btnConvertirADecimal.UseVisualStyleBackColor = false;
+            this.btnConvertirADecimal.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
             // 
             // btnCerrar
             // 
@@ -136,6 +137,7 @@ namespace MiCalculadora
             this.btnConvertirABinario.TabIndex = 6;
             this.btnConvertirABinario.Text = "Convertir a Binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = false;
+            this.btnConvertirABinario.Click += new System.EventHandler(this.btnConvertirABinario_Click);
             // 
             // lblResultado
             // 
@@ -144,12 +146,11 @@ namespace MiCalculadora
             this.lblResultado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblResultado.Location = new System.Drawing.Point(5, 6);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblResultado.Size = new System.Drawing.Size(423, 30);
+            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblResultado.Size = new System.Drawing.Size(417, 30);
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "Resultado";
-            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lstOperaciones
             // 
@@ -162,6 +163,7 @@ namespace MiCalculadora
             this.lstOperaciones.ItemHeight = 22;
             this.lstOperaciones.Location = new System.Drawing.Point(440, 6);
             this.lstOperaciones.Name = "lstOperaciones";
+            this.lstOperaciones.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lstOperaciones.Size = new System.Drawing.Size(183, 242);
             this.lstOperaciones.TabIndex = 9;
             this.lstOperaciones.TabStop = false;
@@ -175,6 +177,7 @@ namespace MiCalculadora
             this.txtNumero1.Location = new System.Drawing.Point(5, 52);
             this.txtNumero1.Margin = new System.Windows.Forms.Padding(5);
             this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNumero1.Size = new System.Drawing.Size(150, 30);
             this.txtNumero1.TabIndex = 0;
             // 
@@ -187,6 +190,7 @@ namespace MiCalculadora
             this.txtNumero2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtNumero2.Location = new System.Drawing.Point(280, 52);
             this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNumero2.Size = new System.Drawing.Size(150, 30);
             this.txtNumero2.TabIndex = 2;
             // 
