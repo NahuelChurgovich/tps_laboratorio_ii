@@ -9,15 +9,22 @@ namespace MiCalculadora
     {
         public FormCalculadora()
         {
-
             InitializeComponent();
         }
-
+        /// <summary>
+        /// En el manejador del evento carga, limpiamos todos los campos de texto.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
             Limpiar();
         }
-
+        /// <summary>
+        /// En el manejador del cierre nos aseguramos que el usuario quiera salir, caso contrario sigue operando.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("¿Seguro que quiere salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
@@ -27,6 +34,11 @@ namespace MiCalculadora
         }
 
         #region ControlBotones
+        /// <summary>
+        /// Borra los campos de texto. Y pregunta si se quiere borrar la lista.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
@@ -36,12 +48,21 @@ namespace MiCalculadora
                 this.lstOperaciones.Items.Clear();
             }
         }
-       
+       /// <summary>
+       /// Ejecuta el cierre del formulario.
+       /// </summary>
+       /// <param name="sender"></param>
+       /// <param name="e"></param>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }    
-
+        /// <summary>
+        /// Ejecuta la operación solicitada, advierte la falta de operador, la falta de operando y el ingreso de texto como operando.
+        /// También carga el resultado en el label y en el listbox.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
             if (!double.TryParse(txtNumero1.Text, out double num1) || !double.TryParse(txtNumero2.Text, out double num2) || txtNumero1.Text == string.Empty || txtNumero2.Text == string.Empty)
@@ -72,7 +93,11 @@ namespace MiCalculadora
                 }
             }
         }
-
+        /// <summary>
+        /// Ejecuta la conversión, carga el label y la listbox con el resultado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             Operando decABin = new Operando();
@@ -80,7 +105,11 @@ namespace MiCalculadora
             this.lblResultado.Text = auxDecABin;
             this.lstOperaciones.Items.Add(auxDecABin);
         }
-
+        /// <summary>
+        /// Ejecuta la conversión, carga el label y la listbox con el resultado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             Operando binADec = new Operando();
@@ -91,6 +120,9 @@ namespace MiCalculadora
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// Vacia el label, los campos de texto y el combobox.
+        /// </summary>
         private void Limpiar()
         {
             this.lblResultado.Text = string.Empty;
@@ -98,6 +130,13 @@ namespace MiCalculadora
             this.txtNumero2.Clear();
             this.cmbOperador.SelectedIndex = 0;
         }
+        /// <summary>
+        /// Ejecuta la operación utilizando el Método Operar de la Clase Calculadora.
+        /// </summary>
+        /// <param name="numero1"></param>
+        /// <param name="numero2"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             Operando num1 = new Operando(numero1);
