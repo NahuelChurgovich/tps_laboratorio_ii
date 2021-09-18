@@ -55,5 +55,6 @@ namespace MiCalculadora
         {
             this.lblResultado.Text = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text).ToString();
         }
+
     }
 }

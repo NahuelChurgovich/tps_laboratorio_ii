@@ -139,17 +139,17 @@ namespace MiCalculadora
             // 
             // lblResultado
             // 
-            this.lblResultado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(163)))), ((int)(((byte)(253)))));
             this.lblResultado.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblResultado.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblResultado.Location = new System.Drawing.Point(297, 6);
+            this.lblResultado.Location = new System.Drawing.Point(5, 6);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(131, 30);
+            this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblResultado.Size = new System.Drawing.Size(423, 30);
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "Resultado";
-            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            
             // 
             // lstOperaciones
             // 
@@ -160,7 +160,7 @@ namespace MiCalculadora
             this.lstOperaciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lstOperaciones.FormattingEnabled = true;
             this.lstOperaciones.ItemHeight = 22;
-            this.lstOperaciones.Location = new System.Drawing.Point(439, 6);
+            this.lstOperaciones.Location = new System.Drawing.Point(440, 6);
             this.lstOperaciones.Name = "lstOperaciones";
             this.lstOperaciones.Size = new System.Drawing.Size(183, 242);
             this.lstOperaciones.TabIndex = 9;
