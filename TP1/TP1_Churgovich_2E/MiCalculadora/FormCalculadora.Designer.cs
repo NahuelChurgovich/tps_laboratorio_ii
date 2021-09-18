@@ -157,14 +157,14 @@ namespace MiCalculadora
             this.lstOperaciones.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lstOperaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(188)))), ((int)(((byte)(253)))));
             this.lstOperaciones.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.lstOperaciones.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lstOperaciones.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.lstOperaciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lstOperaciones.FormattingEnabled = true;
-            this.lstOperaciones.ItemHeight = 22;
+            this.lstOperaciones.ItemHeight = 16;
             this.lstOperaciones.Location = new System.Drawing.Point(440, 6);
             this.lstOperaciones.Name = "lstOperaciones";
-            this.lstOperaciones.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lstOperaciones.Size = new System.Drawing.Size(183, 242);
+            this.lstOperaciones.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lstOperaciones.Size = new System.Drawing.Size(183, 240);
             this.lstOperaciones.TabIndex = 9;
             this.lstOperaciones.TabStop = false;
             // 

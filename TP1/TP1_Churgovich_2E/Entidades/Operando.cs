@@ -58,7 +58,7 @@ namespace Entidades
             {
                 foreach (char digito in binario)
                 {
-                    if (digito != '0' || digito != '1')
+                    if (digito != '0' && digito != '1')
                     {
                         return false;
                     }
@@ -92,7 +92,6 @@ namespace Entidades
 
         public string DecimalBinario(double numero)
         {
-            const int dos = 2;
             double decima = numero;
             string resto = "";
             char[] arrayAux = { ' ' };
@@ -103,8 +102,8 @@ namespace Entidades
                 while (decima >= 1)
                 {
                     decima = Math.Truncate(decima);
-                    resto += (decima % dos).ToString();
-                    decima /= dos;
+                    resto += (decima % 2).ToString();
+                    decima /= 2;
                     i++;
                 }
                 arrayAux = resto.ToCharArray();
