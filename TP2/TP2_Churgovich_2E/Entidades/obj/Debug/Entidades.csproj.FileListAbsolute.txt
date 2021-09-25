@@ -11,3 +11,9 @@ D:\VisualStudio\Federico Dávila\TP-02\Entidades\bin\Debug\Entidades.pdb
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\Entidades\obj\Debug\Entidades.dll
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\bin\Debug\Entidades.dll
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\bin\Debug\Entidades.pdb
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\obj\Debug\Entidades.dll
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\Entidades\obj\Debug\Entidades.pdb
