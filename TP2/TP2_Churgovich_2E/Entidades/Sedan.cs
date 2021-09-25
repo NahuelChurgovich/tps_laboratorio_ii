@@ -1,17 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
-using System.Drawing;
 
 namespace Entidades
 {
-    class Sedan : Vehiculo
+    public class Sedan : Vehiculo
     {
-        public enum ETipo { CuatroPuertas, CincoPuertas }
-        ETipo tipo;
+
+        #region Atributos
+
+        private ETipo tipo;
+
+        #endregion
+
+
+        #region Constructor
 
         /// <summary>
         /// Por defecto, TIPO será CuatroPuertas
@@ -20,34 +22,60 @@ namespace Entidades
         /// <param name="chasis"></param>
         /// <param name="color"></param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color)
-            : base(chasis, marca, color)
+            : base(marca, chasis, color)
         {
             tipo = ETipo.CuatroPuertas;
         }
 
+        public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
+            : base(marca, chasis, color)
+        {
+            this.tipo = tipo;
+        }
+
+        #endregion
+
+
+        #region Propiedades
+
         /// <summary>
         /// Sedan son 'Mediano'
         /// </summary>
-        protected override short Tamanio
+        protected override ETamanio Tamanio
         {
             get
             {
-                return this.Tamanio;
+                return ETamanio.Mediano;
             }
         }
 
-        public override sealed string Mostrar()
+        #endregion
+
+
+        #region Métodos
+
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("SEDAN");
-            sb.AppendLine(this);
-            sb.AppendLine("TAMAÑO : {0}", this.Tamanio);
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
+
+        #endregion
+
+
+        #region Enumerados
+
+        public enum ETipo { CuatroPuertas, CincoPuertas }
+
+        #endregion
+
     }
 }
