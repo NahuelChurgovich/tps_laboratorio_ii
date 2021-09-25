@@ -45,9 +45,9 @@ namespace Entidades
         /// Publica todos los datos del Vehículo.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        public virtual string Mostrar()
         {
-            return this.ToString();
+            return (string)this;
         }
 
         public static explicit operator string(Vehiculo p)
