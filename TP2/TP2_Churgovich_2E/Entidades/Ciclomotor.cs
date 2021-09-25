@@ -41,7 +41,7 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("CICLOMOTOR");
-            sb.AppendLine(this.Mostrar());
+            sb.AppendLine(base.Mostrar());
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
