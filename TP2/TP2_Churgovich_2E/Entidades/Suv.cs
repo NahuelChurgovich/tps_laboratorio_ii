@@ -33,7 +33,7 @@ namespace Entidades
 
         #region Métodos
 
-        public override sealed string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -47,10 +47,6 @@ namespace Entidades
         }
 
         #endregion
-
-
-
-
 
     }
 }
