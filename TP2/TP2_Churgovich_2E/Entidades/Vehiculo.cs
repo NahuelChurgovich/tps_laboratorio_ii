@@ -50,6 +50,11 @@ namespace Entidades
             return (string)this;
         }
 
+        #endregion
+
+
+        #region Operadores
+
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
