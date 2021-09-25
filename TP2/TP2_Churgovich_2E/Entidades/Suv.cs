@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Text;
 
 namespace Entidades
@@ -39,7 +40,6 @@ namespace Entidades
 
             sb.AppendLine("SUV");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("");
             sb.AppendLine("---------------------");
 
             return sb.ToString();

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Entidades
 {
@@ -27,7 +24,7 @@ namespace Entidades
 
         #region Constructores
         public Ciclomotor(EMarca marca, string chasis, ConsoleColor color)
-            :base(marca, chasis, color)
+            : base(marca, chasis, color)
         {
         }
 
@@ -42,7 +39,6 @@ namespace Entidades
 
             sb.AppendLine("CICLOMOTOR");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine("");
             sb.AppendLine("---------------------");
 
             return sb.ToString();
