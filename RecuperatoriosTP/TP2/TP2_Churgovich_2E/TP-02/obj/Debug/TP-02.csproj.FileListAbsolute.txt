@@ -31,3 +31,13 @@ C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_labor
 C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.exe
 C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.pdb
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\bin\Debug\TP-02.exe
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\bin\Debug\TP-02.pdb
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\bin\Debug\Entidades.dll
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\bin\Debug\Entidades.pdb
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.csproj.AssemblyReference.cache
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.exe
+C:\Users\nchur\Documents\Nahu\UTN\2_SegundoCuatrimestre\ProgramacionII\tps_laboratorio_ii\RecuperatoriosTP\TP2\TP2_Churgovich_2E\TP-02\obj\Debug\TP-02.pdb

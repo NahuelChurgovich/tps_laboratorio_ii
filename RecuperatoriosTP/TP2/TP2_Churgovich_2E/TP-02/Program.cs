@@ -16,7 +16,7 @@ namespace TP_02_2018
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
 
             // Nombre del alumno
-            Console.Title = "Nahuel Churgovich 2ºE";
+            Console.Title = "";
 
             Taller taller = new Taller(6);
 
@@ -40,28 +40,17 @@ namespace TP_02_2018
             taller += a3;
             taller += a4;
 
-            
-
             Console.WriteLine(taller.ToString());
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");
-
-            //Console.WriteLine("\n---Solo debe haber un Toyota HJK789");
-            //Console.WriteLine("---El ultimo debe ser el Renault TYU426");
-            //Console.WriteLine("---No se ven BMW IOP852 ni Honda ASD913");
-
             Console.ReadKey();
             Console.Clear();
 
             // Quito 2 items y muestro
             taller -= c1;
-            taller -= new Ciclomotor(Vehiculo.EMarca.Honda, "ASD913", ConsoleColor.Red); //Esta no la puede borrar porque nunca forma
-                                                                                         //parte de la lista.
+            taller -= new Ciclomotor(Vehiculo.EMarca.Honda, "ASD913", ConsoleColor.Red);
 
             Console.WriteLine(taller.ToString());
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");
-
-            //Console.WriteLine("\n---Debe borrar la BMW ASD912 (quedan 5 vehículos)");
-
             Console.ReadKey();
             Console.Clear();
 
@@ -71,27 +60,18 @@ namespace TP_02_2018
             // Muestro solo Moto
             Console.WriteLine(Taller.Listar(taller, Taller.ETipo.Ciclomotor));
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");
-
-            //Console.WriteLine("\n---Solo debe mostrar Harley LEM666");
-
             Console.ReadKey();
             Console.Clear();
 
             // Muestro solo Automovil
             Console.WriteLine(Taller.Listar(taller, Taller.ETipo.Sedan));
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");
-
-            //Console.WriteLine("\n---Solo debe mostrar Toyota HJK789 y Chevrolet IOP852");
-
             Console.ReadKey();
             Console.Clear();
 
             // Muestro solo Camioneta
             Console.WriteLine(Taller.Listar(taller, Taller.ETipo.SUV));
             Console.WriteLine("<-------------PRESIONE UNA TECLA PARA SALIR------------->");
-
-            //Console.WriteLine("\n---Solo debe mostrar Ford QWE968 y Renault TYU426");
-
             Console.ReadKey();
         }
     }
