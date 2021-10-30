@@ -92,7 +92,7 @@ namespace Formularios
             this.txtDiaRecep.Location = new System.Drawing.Point(12, 24);
             this.txtDiaRecep.Name = "txtDiaRecep";
             this.txtDiaRecep.Size = new System.Drawing.Size(25, 23);
-            this.txtDiaRecep.TabIndex = 1;
+            this.txtDiaRecep.TabIndex = 0;
             this.txtDiaRecep.Text = "dd";
             this.txtDiaRecep.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -103,8 +103,9 @@ namespace Formularios
             this.txtPrefijo.ForeColor = System.Drawing.Color.Black;
             this.txtPrefijo.Location = new System.Drawing.Point(153, 74);
             this.txtPrefijo.Name = "txtPrefijo";
+            this.txtPrefijo.ReadOnly = true;
             this.txtPrefijo.Size = new System.Drawing.Size(56, 23);
-            this.txtPrefijo.TabIndex = 3;
+            this.txtPrefijo.TabIndex = 8;
             this.txtPrefijo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblPrefijo
@@ -123,8 +124,9 @@ namespace Formularios
             this.txtGuia.ForeColor = System.Drawing.Color.Black;
             this.txtGuia.Location = new System.Drawing.Point(212, 74);
             this.txtGuia.Name = "txtGuia";
+            this.txtGuia.ReadOnly = true;
             this.txtGuia.Size = new System.Drawing.Size(94, 23);
-            this.txtGuia.TabIndex = 5;
+            this.txtGuia.TabIndex = 9;
             this.txtGuia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblGuia
@@ -144,7 +146,7 @@ namespace Formularios
             this.txtDiaEntrega.Location = new System.Drawing.Point(146, 24);
             this.txtDiaEntrega.Name = "txtDiaEntrega";
             this.txtDiaEntrega.Size = new System.Drawing.Size(25, 23);
-            this.txtDiaEntrega.TabIndex = 7;
+            this.txtDiaEntrega.TabIndex = 3;
             this.txtDiaEntrega.Text = "dd";
             this.txtDiaEntrega.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -184,7 +186,7 @@ namespace Formularios
             this.cbmOrigen.Location = new System.Drawing.Point(12, 74);
             this.cbmOrigen.Name = "cbmOrigen";
             this.cbmOrigen.Size = new System.Drawing.Size(55, 23);
-            this.cbmOrigen.TabIndex = 10;
+            this.cbmOrigen.TabIndex = 6;
             // 
             // cmbDestino
             // 
@@ -195,7 +197,7 @@ namespace Formularios
             this.cmbDestino.Location = new System.Drawing.Point(80, 74);
             this.cmbDestino.Name = "cmbDestino";
             this.cmbDestino.Size = new System.Drawing.Size(55, 23);
-            this.cmbDestino.TabIndex = 11;
+            this.cmbDestino.TabIndex = 7;
             // 
             // txtMesRecep
             // 
@@ -205,7 +207,7 @@ namespace Formularios
             this.txtMesRecep.Location = new System.Drawing.Point(43, 24);
             this.txtMesRecep.Name = "txtMesRecep";
             this.txtMesRecep.Size = new System.Drawing.Size(25, 23);
-            this.txtMesRecep.TabIndex = 12;
+            this.txtMesRecep.TabIndex = 1;
             this.txtMesRecep.Text = "MM";
             this.txtMesRecep.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -217,7 +219,7 @@ namespace Formularios
             this.txtAnioRecep.Location = new System.Drawing.Point(74, 24);
             this.txtAnioRecep.Name = "txtAnioRecep";
             this.txtAnioRecep.Size = new System.Drawing.Size(46, 23);
-            this.txtAnioRecep.TabIndex = 13;
+            this.txtAnioRecep.TabIndex = 2;
             this.txtAnioRecep.Text = "aaaa";
             this.txtAnioRecep.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -229,7 +231,7 @@ namespace Formularios
             this.txtMesEntrega.Location = new System.Drawing.Point(177, 24);
             this.txtMesEntrega.Name = "txtMesEntrega";
             this.txtMesEntrega.Size = new System.Drawing.Size(25, 23);
-            this.txtMesEntrega.TabIndex = 14;
+            this.txtMesEntrega.TabIndex = 4;
             this.txtMesEntrega.Text = "MM";
             this.txtMesEntrega.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -241,7 +243,7 @@ namespace Formularios
             this.txtAnioEntrega.Location = new System.Drawing.Point(208, 24);
             this.txtAnioEntrega.Name = "txtAnioEntrega";
             this.txtAnioEntrega.Size = new System.Drawing.Size(46, 23);
-            this.txtAnioEntrega.TabIndex = 15;
+            this.txtAnioEntrega.TabIndex = 5;
             this.txtAnioEntrega.Text = "aaaa";
             this.txtAnioEntrega.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -252,8 +254,9 @@ namespace Formularios
             this.txtRte.ForeColor = System.Drawing.Color.Black;
             this.txtRte.Location = new System.Drawing.Point(12, 126);
             this.txtRte.Name = "txtRte";
+            this.txtRte.ReadOnly = true;
             this.txtRte.Size = new System.Drawing.Size(197, 23);
-            this.txtRte.TabIndex = 17;
+            this.txtRte.TabIndex = 11;
             // 
             // lblRte
             // 
@@ -263,7 +266,6 @@ namespace Formularios
             this.lblRte.Size = new System.Drawing.Size(35, 15);
             this.lblRte.TabIndex = 16;
             this.lblRte.Text = "Rte.";
-            this.lblRte.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtLocalidadRte
             // 
@@ -273,7 +275,7 @@ namespace Formularios
             this.txtLocalidadRte.Location = new System.Drawing.Point(220, 126);
             this.txtLocalidadRte.Name = "txtLocalidadRte";
             this.txtLocalidadRte.Size = new System.Drawing.Size(197, 23);
-            this.txtLocalidadRte.TabIndex = 19;
+            this.txtLocalidadRte.TabIndex = 12;
             // 
             // lblLocalRte
             // 
@@ -292,7 +294,7 @@ namespace Formularios
             this.txtLocalDestinatario.Location = new System.Drawing.Point(220, 177);
             this.txtLocalDestinatario.Name = "txtLocalDestinatario";
             this.txtLocalDestinatario.Size = new System.Drawing.Size(197, 23);
-            this.txtLocalDestinatario.TabIndex = 23;
+            this.txtLocalDestinatario.TabIndex = 14;
             // 
             // lblLocalDestinatario
             // 
@@ -311,7 +313,7 @@ namespace Formularios
             this.txtDestinatario.Location = new System.Drawing.Point(12, 177);
             this.txtDestinatario.Name = "txtDestinatario";
             this.txtDestinatario.Size = new System.Drawing.Size(197, 23);
-            this.txtDestinatario.TabIndex = 21;
+            this.txtDestinatario.TabIndex = 13;
             // 
             // lblDestinatario
             // 
@@ -330,7 +332,7 @@ namespace Formularios
             this.txtRto.Location = new System.Drawing.Point(323, 74);
             this.txtRto.Name = "txtRto";
             this.txtRto.Size = new System.Drawing.Size(94, 23);
-            this.txtRto.TabIndex = 25;
+            this.txtRto.TabIndex = 10;
             this.txtRto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblRto
@@ -351,7 +353,7 @@ namespace Formularios
             this.cmbTipoBulto.Location = new System.Drawing.Point(13, 230);
             this.cmbTipoBulto.Name = "cmbTipoBulto";
             this.cmbTipoBulto.Size = new System.Drawing.Size(77, 23);
-            this.cmbTipoBulto.TabIndex = 27;
+            this.cmbTipoBulto.TabIndex = 15;
             // 
             // lblTipoBulto
             // 
@@ -371,7 +373,7 @@ namespace Formularios
             this.cmbTipoPeso.Location = new System.Drawing.Point(214, 230);
             this.cmbTipoPeso.Name = "cmbTipoPeso";
             this.cmbTipoPeso.Size = new System.Drawing.Size(77, 23);
-            this.cmbTipoPeso.TabIndex = 29;
+            this.cmbTipoPeso.TabIndex = 17;
             // 
             // lblTipoPeso
             // 
@@ -399,7 +401,7 @@ namespace Formularios
             this.nudCantBultos.Location = new System.Drawing.Point(113, 230);
             this.nudCantBultos.Name = "nudCantBultos";
             this.nudCantBultos.Size = new System.Drawing.Size(77, 23);
-            this.nudCantBultos.TabIndex = 31;
+            this.nudCantBultos.TabIndex = 16;
             // 
             // txtPeso
             // 
@@ -408,8 +410,9 @@ namespace Formularios
             this.txtPeso.ForeColor = System.Drawing.Color.Black;
             this.txtPeso.Location = new System.Drawing.Point(314, 231);
             this.txtPeso.Name = "txtPeso";
+            this.txtPeso.ReadOnly = true;
             this.txtPeso.Size = new System.Drawing.Size(103, 23);
-            this.txtPeso.TabIndex = 33;
+            this.txtPeso.TabIndex = 18;
             // 
             // lblPeso
             // 
@@ -419,7 +422,6 @@ namespace Formularios
             this.lblPeso.Size = new System.Drawing.Size(35, 15);
             this.lblPeso.TabIndex = 32;
             this.lblPeso.Text = "Peso";
-            this.lblPeso.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // txtFlete
             // 
@@ -428,8 +430,9 @@ namespace Formularios
             this.txtFlete.ForeColor = System.Drawing.Color.Black;
             this.txtFlete.Location = new System.Drawing.Point(12, 286);
             this.txtFlete.Name = "txtFlete";
+            this.txtFlete.ReadOnly = true;
             this.txtFlete.Size = new System.Drawing.Size(128, 23);
-            this.txtFlete.TabIndex = 35;
+            this.txtFlete.TabIndex = 19;
             // 
             // lblFlete
             // 
@@ -447,8 +450,9 @@ namespace Formularios
             this.txtIva.ForeColor = System.Drawing.Color.Black;
             this.txtIva.Location = new System.Drawing.Point(157, 286);
             this.txtIva.Name = "txtIva";
+            this.txtIva.ReadOnly = true;
             this.txtIva.Size = new System.Drawing.Size(108, 23);
-            this.txtIva.TabIndex = 37;
+            this.txtIva.TabIndex = 20;
             // 
             // lblIva
             // 
@@ -466,8 +470,9 @@ namespace Formularios
             this.txtTotal.ForeColor = System.Drawing.Color.Black;
             this.txtTotal.Location = new System.Drawing.Point(282, 286);
             this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
             this.txtTotal.Size = new System.Drawing.Size(135, 23);
-            this.txtTotal.TabIndex = 39;
+            this.txtTotal.TabIndex = 21;
             // 
             // lblTotal
             // 
@@ -488,11 +493,11 @@ namespace Formularios
             this.btnActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnActualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizar.ForeColor = System.Drawing.Color.Black;
+            this.btnActualizar.ForeColor = System.Drawing.Color.Cyan;
             this.btnActualizar.Location = new System.Drawing.Point(39, 328);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(97, 47);
-            this.btnActualizar.TabIndex = 40;
+            this.btnActualizar.TabIndex = 22;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
             // 
@@ -506,11 +511,11 @@ namespace Formularios
             this.btnCargar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnCargar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnCargar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargar.ForeColor = System.Drawing.Color.Black;
+            this.btnCargar.ForeColor = System.Drawing.Color.Cyan;
             this.btnCargar.Location = new System.Drawing.Point(161, 328);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(97, 47);
-            this.btnCargar.TabIndex = 41;
+            this.btnCargar.TabIndex = 23;
             this.btnCargar.Text = "Cargar";
             this.btnCargar.UseVisualStyleBackColor = false;
             // 
@@ -524,11 +529,11 @@ namespace Formularios
             this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.ForeColor = System.Drawing.Color.Black;
+            this.btnSalir.ForeColor = System.Drawing.Color.Cyan;
             this.btnSalir.Location = new System.Drawing.Point(282, 328);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(97, 47);
-            this.btnSalir.TabIndex = 42;
+            this.btnSalir.TabIndex = 24;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
             // 
@@ -582,7 +587,6 @@ namespace Formularios
             this.Controls.Add(this.lblFechaRecep);
             this.Name = "FrmNuevoDespacho";
             this.Text = "Nuevo Despacho";
-            this.Load += new System.EventHandler(this.FrmNuevoDespacho_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudCantBultos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
