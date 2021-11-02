@@ -1,4 +1,6 @@
-﻿namespace Formularios
+﻿using System.Windows.Forms;
+
+namespace Formularios
 {
     public partial class FrmNuevoDespacho : FrmBase
     {
